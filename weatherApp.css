@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(147, 255, 255);
+}
+
+.text{
+    text-align: center;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagebox{
+    height: 600px;
+    width: 600px;
+    border-radius: 35px;
+    border: 2px solid rebeccapurple;
+    overflow: hidden;
+}
+
+.buttonbox{
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+#mybutton{
+    border: 1px solid skyblue;
+    background-color: rgb(159, 214, 235);
+    border-radius: 5px;
+}
+
+#mybutton:hover{
+    background-color: aquamarine;
+}
